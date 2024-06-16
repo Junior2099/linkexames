@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- END GOOGLE FONTS -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <title>Link para segunda via</title>
+</head>
+<body>
+    <style>
+        
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+html{
+    height: 100vh;
+    font-size: 14px;
+}
+
+body{
+    background-color: #282828;
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: #ffffff;
+    overflow:inherit; 
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.degrade{
+    background: linear-gradient(to right, #0196ed, #99ebce);
+}
+
+/* ESTILO DO HEADER */
+
+header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header img{
+    max-width: 150px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+header h1{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #5e5e5e;
+    font-weight: 300;
+}
+
+/* ESTILO DOS BOTÕES */
+
+section.botoes-links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+a.link button{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #000000;
+    transition: .2s;
+}
+
+a.link i{
+    font-size: 1.5em;
+}
+
+a.link button:hover, footer a.btn-footer:hover{
+    transform: scale(1.05);
+}
+
+/* ESTILO DO FOOTER */
+
+footer{
+    text-align: center;
+    margin: 30px;
+}
+
+footer a.btn-footer{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    font-size: 2em;
+    line-height: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: .2s;
+}
+    </style>
+    <div class="container">
+        <header>
+           <br> <br>
+            <h1> RESULTADOS DE EXAMES </h1>
+            <p> Clicando em um dos links você será redirecionado para os sites </p>
+        </header>
+
+        <section class="botoes-links">
+            <a href="https://cientificalab.com.br/resultados-de-exames" target="_blank" class="link">
+                <button class="degrade">
+                    <span> CIENTIFICA LAB </span>
+                 
+                </button>
+            </a>
+
+            <a href="https://www.notrelabs.com.br/resultados/" target="_blank" class="link">
+                <button class="degrade">
+                    <span> NOTRE LABS </span>
+                    
+                </button >
+            </a>
+
+            <a href="https://entregadeexames.com.br/" target="_blank" class="link">
+                <button class="degrade">
+                    <span> ENTREGA DE EXAMES </span>
+                 
+                </button>
+            </a>
+            <a href="https://nav.dasa.com.br/entrar?redirectTo=/plataforma/inicio" target="_blank" class="link">
+                <button class="degrade">
+                    <span> NAV RESULTADOS </span>
+                  
+                </button>
+            </a>
+            <a href="https://lis.biofast.com.br/arWebLaudo/login" target="_blank" class="link">
+                <button class="degrade">
+                    <span> BIO FAST </span>
+                    
+                </button>
+            </a>
+            <a href="https://resultados.fidi.org.br/" target="_blank" class="link">
+                <button class="degrade">
+                    <span> FIDI RESULTADOS </span>
+             
+                </button>
+            </a>
+
+            <a href="https://union.lisnet.com.br/laudos/#" target="_blank" class="link">
+                <button class="degrade">
+                    <span> UNION </span>
+             
+                </button>
+            </a>
+
+            <a href="https://exames.image2doc.com.br/#/login/protocolo" target="_blank" class="link">
+                <button class="degrade">
+                    <span> SCOPP </span>
+                             </button>
+            </a>
+
+            <a href="https://sso.grupopardini.com.br/auth/realms/grupopardini/protocol/openid-connect/auth?client_id=precision_care_pardini&redirect_uri=https%3A%2F%2Fgrupopardini.com.br%2Fprecision-care%3Forigin%3Dpardini&state=4dbbc58b-5125-4331-a3e6-2d72d34a48a7&response_mode=fragment&response_type=code&scope=openid&nonce=fb030efb-0849-449c-82dd-e376d04cc4d7&code_challenge=IdQ4CSAGZdHh8dDC5l_nPReRRjUtWpZiq86jhTTYKsk&code_challenge_method=S256" target="_blank" class="link">
+                <button class="degrade">
+                    <span> PRECISION </span>
+                             </button>
+            </a>
+
+         
+        </section><!--botoes-links-->
+
+        <footer>
+            <a href="mailto:paraisodoces20991@gmail.com" class="btn-footer degrade" target="_blank"><i class="bi bi-envelope-fill"></i></a>
+            
+        </footer>
+    </div><!--container-->
+</body>
+</html>
